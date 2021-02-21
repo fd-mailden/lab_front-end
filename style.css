@@ -1,0 +1,85 @@
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-right;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+     grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+    
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+
+
+
+
+/*
+ <main>
+       <div class="box1">
+            <h1>Box 1</h1>
+       </div>   
+       <div class="box2">
+           <h1>Box 2</h1>
+       </div>   
+       <div class="box3">
+          <h1>Box 3</h1>
+       </div>   
+   </main>
+
+
+
+.box1{
+    background: #eb4034;
+}
+.box2{
+    background: #baeb34;
+}
+.box3{
+    background: #34c6eb;
+}
+*/
+/*
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "box1 box2"
+        "box3 box3";
+}
+
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
